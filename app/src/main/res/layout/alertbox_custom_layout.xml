@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="17dp">
+
+    <TextView
+        android:id="@+id/dialog_titile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:fontFamily="@font/gotham"
+        android:text="Thank You!!"
+        android:textColor="#393838"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/dialog_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_titile"
+        android:fontFamily="@font/gotham"
+        android:padding="6dp"
+        android:text="Please rate us on Google Playstore to support us."
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/dialog_neutral_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_tv"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="15dp"
+        android:padding="2dp"
+        android:text="LATER"
+        android:textColor="#a0a0a0"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="120dp" />
+
+    <TextView
+        android:id="@+id/dialog_positive_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/dialog_neutral_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/button_bg"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:text="PROCEED"
+        android:textColor="#ffffff"
+        android:textSize="13sp" />
+
+</RelativeLayout>

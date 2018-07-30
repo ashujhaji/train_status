@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pnr_status"
+            android:icon="@drawable/pnr"
+            android:title="Pnr status" />
+        <item
+            android:id="@+id/nav_live_train"
+            android:icon="@drawable/live_station"
+            android:title="Live train status" />
+        <item
+            android:id="@+id/nav_train_route"
+            android:icon="@drawable/train_time"
+            android:title="Get train route" />
+        <item
+            android:id="@+id/nav_fare_enquiry"
+            android:icon="@drawable/fair_enquiry"
+            android:title="Fare Enquiry" />
+        <item
+            android:id="@+id/nav_seat_avail"
+            android:icon="@drawable/seat_availibility"
+            android:title="Seat Availability" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share"
+                android:visible="false"/>
+        </menu>
+    </item>
+
+</menu>

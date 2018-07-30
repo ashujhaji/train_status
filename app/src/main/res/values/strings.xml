@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Train Status</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="user_msg">Please enter train name or code. (e.g. Nanda devi exp. or 12205 )</string>
+
+    <string name="user_msg_2">Please enter station name. (e.g. New delhi )</string>
+</resources>

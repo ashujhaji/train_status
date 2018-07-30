@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.tnine.trainstatus.Fragments.CancelledTrains">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/search_cancel"
+        android:visibility="gone"
+        android:background="@color/colorPrimary">
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:id="@+id/cancel_search_txt"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Search train"
+            android:textColorHint="@color/grey_300"
+            android:fontFamily="@font/gotham"
+            android:textSize="13dp"
+            android:paddingLeft="10dp"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_cancelledtrains"
+        android:layout_below="@+id/search_cancel">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:fontFamily="@font/gotham"
+        android:id="@+id/passen_count"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:fontFamily="@font/gotham"
+        android:id="@+id/book_status_count"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:fontFamily="@font/gotham"
+        android:id="@+id/curr_status_count"/>
+</LinearLayout>
+</RelativeLayout>
